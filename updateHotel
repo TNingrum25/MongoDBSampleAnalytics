@@ -1,0 +1,11 @@
+updateMany(
+  {},
+  { 
+    $set: { 
+      "amenities": [
+        "Free WiFi", 
+        "Breakfast Included", 
+        "24/7 Front Desk"
+      ] 
+    } 
+  }
