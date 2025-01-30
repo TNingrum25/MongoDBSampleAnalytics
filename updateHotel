@@ -1,13 +1,14 @@
-db.hotels.updateOne(
-  { name: "Grand Wyoming Hotel" },
-  { $set: { "amenities": ["Free WiFi", "Breakfast Included", "Swimming Pool"] } }
+db.new_hotels.updateOne(
+  { name: "Skyline Grand Hotel" },
+  { $set: { "amenities": ["Free WiFi", "Fitness Center", "Restaurant"] } }
 );
 
-db.hotels.updateOne(
-  { name: "Mountain View Lodge" },
-  { $set: { "amenities": ["Free Parking", "Hot Tub", "Mountain View"] } }
+db.new_hotels.updateOne(
+  { name: "Ocean Breeze Resort" },
+  { $set: { "amenities": ["Free Parking", "Beach Access", "Hot Tub"] } }
 );
 
-db.hotels.updateOne(
-  { name: "Yellowstone Retreat" },
-  {
+db.new_hotels.updateOne(
+  { name: "Evergreen Mountain Lodge" },
+  { $set: { "amenities": ["Pet Friendly", "Fireplace", "Ski Equipment Rental"] } }
+);
