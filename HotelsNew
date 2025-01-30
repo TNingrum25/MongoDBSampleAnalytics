@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Skyline Grand Hotel",
+    "address": {
+      "street": "100 Sunset Blvd",
+      "city": "Denver",
+      "state": "Colorado",
+      "zip": "80202"
+    },
+    "room_rates": {
+      "standard": 130,
+      "deluxe": 200,
+      "suite": 280
+    },
+    "room_types": ["Standard", "Deluxe", "Suite"]
+  },
+  {
+    "name": "Ocean Breeze Resort",
+    "address": {
+      "street": "789 Seaside Ave",
+      "city": "San Diego",
+      "state": "California",
+      "zip": "92101"
+    },
+    "room_rates": {
+      "standard": 180,
+      "ocean_view": 250,
+      "penthouse": 400
+    },
+    "room_types": ["Standard", "Ocean View", "Penthouse"]
+  },
+  {
+    "name": "Evergreen Mountain Lodge",
+    "address": {
+      "street": "456 Pine Tree Ln",
+      "city": "Aspen",
+      "state": "Colorado",
+      "zip": "81611"
+    },
+    "room_rates": {
+      "cabin": 220,
+      "luxury_suite": 350,
+      "mountain_view": 500
+    },
+    "room_types": ["Cabin", "Luxury Suite", "Mountain View"]
+  }
+]
