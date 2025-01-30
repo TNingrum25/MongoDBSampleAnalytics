@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Grand Wyoming Hotel",
+    "address": {
+      "street": "123 Main St",
+      "city": "Cheyenne",
+      "state": "Wyoming",
+      "zip": "82001"
+    },
+    "room_rates": {
+      "standard": 120,
+      "deluxe": 180,
+      "suite": 250
+    },
+    "amenities": ["Free WiFi", "Pool", "Fitness Center", "Restaurant"],
+    "room_types": ["Standard", "Deluxe", "Suite"]
+  },
+  {
+    "name": "Mountain View Lodge",
+    "address": {
+      "street": "456 Pine Rd",
+      "city": "Jackson",
+      "state": "Wyoming",
+      "zip": "83001"
+    },
+    "room_rates": {
+      "standard": 150,
+      "deluxe": 220,
+      "cabin": 300
+    },
+    "amenities": ["Free Parking", "Hot Tub", "Mountain View", "Breakfast Included"],
+    "room_types": ["Standard", "Deluxe", "Cabin"]
+  },
+  {
+    "name": "Yellowstone Retreat",
+    "address": {
+      "street": "789 Park Ave",
+      "city": "Cody",
+      "state": "Wyoming",
+      "zip": "82414"
+    },
+    "room_rates": {
+      "standard": 100,
+      "deluxe": 160,
+      "family_suite": 280
+    },
+    "amenities": ["Pet Friendly", "Guided Tours", "Fireplace", "Bar"],
+    "room_types": ["Standard", "Deluxe", "Family Suite"]
+  }
+]
