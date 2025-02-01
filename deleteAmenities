@@ -1,0 +1,4 @@
+db.new_hotels.updateOne(
+  { name: "Skyline Grand Hotel" },
+  { $unset: { "amenities": "" } }
+);
